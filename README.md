@@ -46,12 +46,12 @@ Un ensemble de commandes intégrées pour simplifier votre expérience :
 
 | Commande     | Description                                   |
 |--------------|-----------------------------------------------|
-| `cd`         | Changer de répertoire                         |
-| `pwd`        | Afficher le répertoire courant                |
-| `clear`      | Effacer le terminal                           |
-| `exit`       | Quitter le shell                              |
+| `cd`         | Changer de répertoire.                        |
+| `pwd`        | Afficher le répertoire courant.               |
+| `clear`      | Effacez l’écran pour un terminal propre.      |
+| `exit`       | Quitter le shellavec une animation de sortie. |
 | `help`       | Afficher les commandes internes disponibles   |
-| `history`    | Afficher l’historique (via GNU Readline)      |
+| `history`    | Consultez vos commandes précédentes.          |
 
 ---
 
