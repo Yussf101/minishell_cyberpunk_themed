@@ -23,15 +23,13 @@ Installez-la sur Ubuntu/Debian avec :
 
 # Fonctionnalités Clés
 
-## ⚡ Prompt Cyberpunk
+## Prompt Cyberpunk
 Un prompt néon dynamique qui affiche votre répertoire actuel.  
-Personnalisable avec des couleurs flashy.
-
-## 💻 Exécution de Commandes
+## Exécution de Commandes
 - Prend en charge toutes les commandes Unix standard via `execvp()`.
 - Compatible avec des processus en arrière-plan grâce à l'opérateur `&`.
 
-## 🔗 Redirections et Pipes
+## Redirections et Pipes
 
 ### Redirections :
 - **Entrée (`<`)** : Lire depuis un fichier.
@@ -41,7 +39,7 @@ Personnalisable avec des couleurs flashy.
 ### Pipes :
 - **(`|`)** : Chaînez plusieurs commandes pour créer des workflows puissants.
 
-## ⚙️ Commandes Internes
+## Commandes Internes
 Un ensemble de commandes intégrées pour simplifier votre expérience :
 
 | Commande     | Description                                   |
@@ -57,13 +55,13 @@ Un ensemble de commandes intégrées pour simplifier votre expérience :
 
 ##  Compilation et exécution
 
-### 🛠️ Compiler le Projet :
+### Compiler le Projet :
 
 ```bash
 gcc main.c parsing.c utils.c builtins.c commandexe.c -o cybershell -lreadline
 ```
 
-### 🚀 Lancer CyberShell :
+### Lancer CyberShell :
 
 ```bash
 ./cybershell
@@ -90,9 +88,8 @@ cat < message.txt
 # Lancez un processus en arrière-plan
 sleep 10 &
 ```
-
-💡 Les flèches ↑ ↓ pour parcourir l’historique  
-💡 Combinez les redirections et les pipes efficacement (`cat input.txt | grep "important" > filtered_output.txt`)
+ Les flèches ↑ ↓ pour parcourir l’historique  
+ Combinez les redirections et les pipes efficacement (`cat input.txt | grep "important" > filtered_output.txt`)
 
 ---
 
