@@ -73,23 +73,18 @@ gcc main.c parsing.c utils.c builtins.c commandexe.c -o cybershell -lreadline
 ##  Exemples d'utilisation
 
 ```bash
-# Liste tous les fichiers dans le répertoire courant
 ls -l
 
-# Utilisez un pipe pour filtrer les fichiers .c
 ls | grep ".c"
 
-# Redirigez la sortie d'une commande vers un fichier
 echo "Hack the Planet" > message.txt
 
-# Lisez le contenu d'un fichier en entrée
 cat < message.txt
 
-# Lancez un processus en arrière-plan
 sleep 10 &
 ```
- Les flèches ↑ ↓ pour parcourir l’historique  
- Combinez les redirections et les pipes efficacement (`cat input.txt | grep "important" > filtered_output.txt`)
+ ↑ ↓ pour parcourir l’historique  
+ Combination des redirections et des pipes (`cat input.txt | grep "important" > filtered_output.txt`)
 
 ---
 
@@ -99,13 +94,13 @@ sleep 10 &
 cybershell/
 ├── main.c         # Boucle principale et gestion des animations
 ├── parsing.c      # Analyse syntaxique des commandes utilisateur
-├── utils.c        # Fonctions utilitaires (gestion des erreurs, etc.)
+├── utils.c        # Fonctions utilitaires (gestion des erreurs,...)
 ├── builtins.c     # Implémentation des commandes internes
 ├── commandexe.c   # Exécution des commandes externes et pipelines
 ├── cyber.h        # Fichier d’en-tête contenant les macros et prototypes
 ├── Makefile       # Script de compilation automatisé
-├── .gitignore     # Ignorer les fichiers temporaires et binaires
-└── README.md      # Documentation du projet
+├── .gitignore     
+└── README.md      # Documentation
 ```
 
 ---
